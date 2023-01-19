@@ -1,0 +1,17 @@
+.place__website {
+  display: grid;
+  gap: 12px;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  justify-self: start;
+  align-self: end;
+}
+
+@media all and (max-width: 767px) {
+  .place__website {
+    grid-column: 1/-1;
+    grid-row: 2/3;
+    width: calc(100% - 16px * 2);
+    margin: 0 auto;
+  }
+}

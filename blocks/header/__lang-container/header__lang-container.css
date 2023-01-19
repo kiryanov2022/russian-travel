@@ -1,0 +1,10 @@
+.header__lang-container {
+  display: grid;
+  margin: 0px;
+  padding: 0px;
+  justify-content: end;
+  align-items: center;
+  grid-auto-flow: column;
+  gap: 18px;
+  list-style-type: none;
+}

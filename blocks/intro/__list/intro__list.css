@@ -1,0 +1,8 @@
+.intro__list {
+  list-style-type: none;
+  padding: 0px;
+  justify-self: start;
+  align-self: start;
+  margin: 0px;
+  gap: 8px;
+}

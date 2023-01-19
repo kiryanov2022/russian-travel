@@ -1,0 +1,11 @@
+.content {
+    display: grid;
+    grid-template-columns: minmax(min-content, 100%);
+    gap: 92px;
+}
+
+@media all and (max-width: 767px) {
+    .content {
+        gap: 64px;
+    }
+}

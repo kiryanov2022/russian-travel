@@ -1,0 +1,17 @@
+.place__text-container {
+  display: grid;
+  gap: 26px;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  grid-template-rows: min-content;
+}
+
+@media all and (max-width: 767px) {
+  .place__text-container {
+    gap: 25px;
+    grid-column: 1/-1;
+    grid-row: 4/5;
+    width: calc(100% - 16px * 2);
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,19 @@
+.place {
+  display: grid;
+  grid-template-columns: 46.8%;
+  gap: 48px 40px;
+}
+
+@media screen and (max-width: 1023px) {
+  .place {
+    grid-template-columns: 45.27%;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .place {
+    grid-template-columns: 100%;
+    gap: 32px;
+    margin: 0 auto;
+  }
+}

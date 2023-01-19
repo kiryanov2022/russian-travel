@@ -1,0 +1,13 @@
+.footer__links {
+  display: flex;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+@media all and (max-width: 767px) {
+  .footer__links {
+    display: grid;
+    gap: 32px;
+  }
+}
